@@ -1,0 +1,29 @@
+{
+  "name": "20261006-it",
+  "version": "1.0.0",
+  "description": "テスト用 2026/10/06 111",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsx watch ./index.ts",
+    "build": "tsc",
+    "start": "node ./dist/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/hyoutr/IT-project/issues"
+  },
+  "homepage": "https://github.com/hyoutr/IT-project#readme",
+  "dependencies": {
+    "ejs": "^7.0.1",
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "@types/node": "^26.6.4",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2"
+  }
+}
